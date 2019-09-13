@@ -55,26 +55,6 @@
 
 
     <dependencies>
-	<dependency>
-   		<groupId>com.sun</groupId>
-   		<artifactId>tools</artifactId>
-   		<version>1.6</version>
-   		<scope>system</scope>
-   		<systemPath>C:\Program Files\Java\jdk1.6.0_29\lib\tools.jar</systemPath>
- 	</dependency>
-	    
-	    <dependency>
-    <groupId>org.apache.struts</groupId>
-    <artifactId>struts2-core</artifactId>
-    <version>${struts2.version}</version>
-    <exclusions>
-        <exclusion>
-            <artifactId>tools</artifactId>
-            <groupId>com.sun</groupId>
-        </exclusion>
-    </exclusions>
-</dependency>
-	    
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-compatibility-server</artifactId>
